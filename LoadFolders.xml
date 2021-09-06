@@ -3,6 +3,6 @@
   <v1.3>
     <li>/</li>
     <li>1.3</li>
-    <li IfModNotActive="Sierra.Milkshakes.Core, Sierra.Milkshakes.Chocolate">ConditionalBerry</li>
+    <li IfModNotActive="Sierra.Milkshakes.Core or Sierra.Milkshakes.Chocolate">ConditionalBerry</li>
   </v1.3>
 </loadFolders>
