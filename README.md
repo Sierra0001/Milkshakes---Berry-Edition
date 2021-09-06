@@ -7,6 +7,7 @@ This mod adds a new craftable recreation/luxury food.
 ### Features
 
 - Berry Milkshakes (Recreation/Luxury Food)
+
 Grants Mood Buff (2) for 18 hours after consumption.
 
 ### Balance
