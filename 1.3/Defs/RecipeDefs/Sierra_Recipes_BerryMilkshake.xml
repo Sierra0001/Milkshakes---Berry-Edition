@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeBerryMilkshakeSmall</defName>
+    <label>make berry milkshakes x2</label>
+    <description>Make berry milkshakes, a delightful and healthy treat.</description>
+    <jobString>Making berry milkshakes.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+		</ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Sierra_BerryMilkshake>2</Sierra_BerryMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeBerryMilkshakeMedium</defName>
+    <label>make berry milkshakes x5</label>
+    <description>Make berry milkshakes, a delightful and healthy treat.\n\nThis recipe takes longer to complete but is more efficient in its use of ingredients.</description>
+    <jobString>Making berry milkshakes.</jobString>
+    <workAmount>1125</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+		</ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Sierra_BerryMilkshake>5</Sierra_BerryMilkshake>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>
