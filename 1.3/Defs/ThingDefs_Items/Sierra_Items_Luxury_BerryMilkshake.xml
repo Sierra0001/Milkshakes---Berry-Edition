@@ -20,9 +20,8 @@
     </costList>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>4</MarketValue>
+      <MarketValue>3.4875</MarketValue> <!-- Milk x1.5 (1.9) + Berries x1.5 (1.2) -> 75% -->
       <Mass>0.075</Mass>
-      <!--<WorkToMake>450</WorkToMake>-->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>16</DeteriorationRate>
       <Nutrition>0.6</Nutrition>
