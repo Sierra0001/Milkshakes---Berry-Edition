@@ -14,7 +14,7 @@
 		<li>Sierra.Milkshakes.Core</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.0[/h1]
+[h1]Mod Version: v1.0.1[/h1]
 
 
 My milkshake brings all the modders to the yard.
@@ -32,6 +32,7 @@ Grants Mood Buff (2) for 18 hours after consumption.
 [b]Recommended Mods:[/b]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2591782692]Milkshakes[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2595706669]Milkshakes - Ambrosia Edition[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2594428074]Milkshakes - Chocolate Edition[/url]
 [/list]
 
@@ -63,6 +64,12 @@ Wow, so balanced.
 [list]
 [*][RimWorld 1.3] RimWorld 1.3 Ready.
 [*][Release] Initial release.
+[/list]
+
+[b]v1.0.1[/b]
+[list]
+[*][Fix] Bulk recipe now uses appropriate amount of ingredients.
+[*][Buff] Market value is now appropriate to the material costs.
 [/list]
 	</description>
 </ModMetaData>
